@@ -35,6 +35,7 @@ Either press the show API or go to your account and copy it from there.
 We will need to enable the developer mode in Discord because we need this to see channel IDs and user IDs to test our bots further.
 
 Go to your user settings and on the left aside, you will see the App settings. Click on "Appearance".
+
 ![alt text][discord_developer01]
 
 Now, scroll down to find the Advanced section, only to toggle the developer mode on.
