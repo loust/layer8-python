@@ -145,9 +145,6 @@ After setting your account to see IDs, go to the [application developer](https:/
 Click on New Application and you will be greeted witha a name input for your bot. Give it a name and move on. Now, you will see the main page. Go to the Bot page and click "Add Bot"
 ![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-01.png)
 
-Tick the REQUIRE OAUTH2 CODE GRANT option to invite the bot to your server via the link will be given below.
-![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-04.png)
-
 Now, there are two things to notice when doing something like this. The bot needs permissions. This can be achieved as seen below:
 ![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-03.png)
 
@@ -164,6 +161,10 @@ https://discordapp.com/api/oauth2/authorize?client_id=##################&permiss
 
 Note the fact that the bot's ID will be shown instead of the `#`s above. Also, the `permissions` will be set to 0. Now, the permissions number that was obtained from the permissions figure, `2048`, is replaced with the `0` from the last figure.
 
+After applying the permissions and going to the correct URL, invite the bot to the server created to test.
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordinvite-01.png)
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordinvite-02.png)
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordinvite-03.png)
 
 # 6. Conclusion
 By the end of getting the basics from this lab, you will be able to create and maintain your own Discord bot that utilizes a database to retain information and uses an API to interface with another application.
