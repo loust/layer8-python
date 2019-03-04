@@ -30,18 +30,23 @@ In addition, note that you can put this whole thing in a different env if you ha
 Please download this to visualize and make databases easily, please download SQLiteStudio from [here](https://sqlitestudio.pl/index.rvt?act=download)
 
 Install and run SQLiteStudeio and create a new database.
+
 ![alt text][sql0]
 
 Observe the information we can see for the database we have on the left.
+
 ![alt text][sql1]
 
 Now, we create a new table by clicking the new table icon:
+
 ![alt text][sql2]
 
 After this, we can give our data some specifications:
+
 ![alt text][sql3]
 
-After this, we can observe more and make the database fully.
+Observe more and make the database fully.
+
 ![alt text][sql4]
 
 We can also manually add data
