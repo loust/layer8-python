@@ -140,5 +140,30 @@ Go to your user settings and on the left aside, you will see the App settings. C
 Now, scroll down to find the Advanced section, only to toggle the developer mode on.
 ![alt text][discord_developer02]
 
+After setting your account to see IDs, go to the [application developer](https://discordapp.com/developers/applications/) page on discord.
+
+Click on New Application and you will be greeted witha a name input for your bot. Give it a name and move on. Now, you will see the main page. Go to the Bot page and click "Add Bot"
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-01.png)
+
+Tick the REQUIRE OAUTH2 CODE GRANT option to invite the bot to your server via the link will be given below.
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-04.png)
+
+Now, there are two things to notice when doing something like this. The bot needs permissions. This can be achieved as seen below:
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-03.png)
+
+Note that this number is only used to give the bot permissions upon joining and only will be used in the URL later on.
+
+This part will show the URL that the above image requires, but cannot be seen. The correct URL will be shown below the image.
+![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordbot-02.png)
+
+
+The URL to copy and paste after you create your bot is the following:
+```
+https://discordapp.com/api/oauth2/authorize?client_id=##################&permissions=2048&scope=bot
+```
+
+Note the fact that the bot's ID will be shown instead of the `#`s above. Also, the `permissions` will be set to 0. Now, the permissions number that was obtained from the permissions figure, `2048`, is replaced with the `0` from the last figure.
+
+
 # 6. Conclusion
 By the end of getting the basics from this lab, you will be able to create and maintain your own Discord bot that utilizes a database to retain information and uses an API to interface with another application.
