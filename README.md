@@ -2,11 +2,11 @@
 This is for a talk on using Python + SQLite3 + Discord + Shodan
 
 # Context
-1. Using pip to install requirements.
-2. SQLiteStudio
-3. Shodan API
-4. Discord API
-5. Integration
+1. [Using pip to install requirements.](https://github.com/loust/layer8-python#1-using-pip-to-install-the-requirements)
+2. [SQLiteStudio](https://github.com/loust/layer8-python#2-sqlitestudio)
+3. [Shodan API](https://github.com/loust/layer8-python#3-shodan-api)
+4. [Discord API](https://github.com/loust/layer8-python#4-discord-api)
+5. [Integration](https://github.com/loust/layer8-python#4-integration)
 
 # 1. Using pip to install the requirements.
 ```bash
