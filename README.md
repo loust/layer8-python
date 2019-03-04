@@ -1,5 +1,12 @@
-# What is this
-This is for a talk on using Python + SQLite3 + Discord + Shodan
+# Abstract
+This repository is for the Python Lab for Layer 8 Cyber Security Club at California State University, Northridge.
+It will cover the items given in the [Context](https://github.com/loust/layer8-python#context) below.
+
+# Introduction
+Please make sure you have downloaded python3 and pip before the lab begins. But the installation under Unix systems are straight forward. Windows installations might require some tinkering with the PATH to get your python to work globally. Otherwise, use the current working directory to run the executable.
+
+This lab's goal is creating a functional Discord bot that utilizes an API and a database.
+The API this lab will utilize is the Shodan API and the database will be SQLite3.
 
 # Context
 1. [Using pip to install requirements.](https://github.com/loust/layer8-python#1-using-pip-to-install-the-requirements)
@@ -7,6 +14,7 @@ This is for a talk on using Python + SQLite3 + Discord + Shodan
 3. [Shodan API](https://github.com/loust/layer8-python#3-shodan-api)
 4. [Discord API](https://github.com/loust/layer8-python#4-discord-api)
 5. [Integration](https://github.com/loust/layer8-python#4-integration)
+6. [Conclusion](https://github.com/loust/layer8-python#conclusion)
 
 # 1. Using pip to install the requirements.
 ```bash
@@ -94,5 +102,5 @@ Go to your user settings and on the left aside, you will see the App settings. C
 Now, scroll down to find the Advanced section, only to toggle the developer mode on.
 ![alt text][discord_developer02]
 
-# Conclusion
+# 6. Conclusion
 By the end of getting the basics from this lab, you will be able to create and maintain your own Discord bot that utilizes a database to retain information and uses an API to interface with another application.
