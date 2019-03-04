@@ -14,7 +14,9 @@ This is for a talk on using Python + SQLite3 + Discord + Shodan
 10. Integration
 
 # 1. Using pip to install the requirements.
-`pip3 install -r ./requirements.txt`
+```bash
+pip3 install -r ./requirements.txt
+```
 
 Note, use `pip3` because we need to be in python3. Use `pip` if your default python is version 3.
 Also, use `sudo`... Run as root if you are under linux.
