@@ -24,7 +24,7 @@ pip3 install -r ./requirements.txt
 Note, use `pip3` because we need to be in python3. Use `pip` if your default python is version 3.
 Also, use `sudo`... Run as root if you are under linux.
 
-In addition, note that you can put this whole thing in a different env if you have another version of discord.py, since discord.py rewrite is WAY different than discord.py.
+In addition, note that you can put this whole thing in a different env if you have another version of discord.py, since discord.py rewrite is WAY different than discord.py because rewrite is version 1.0.0a (a as in alpha, not released) and the current version of discord.py is v0.16.6. We will use rewrite here. The documentations are available [here](https://discordpy.readthedocs.io/en/rewrite/)
 
 # 2. SQLiteStudio
 Please download this to visualize and make databases easily, please download SQLiteStudio from [here](https://sqlitestudio.pl/index.rvt?act=download)
