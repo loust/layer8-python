@@ -21,5 +21,12 @@ In addition, note that you can put this whole thing in a different env if you ha
 # 2. SQLiteStudio
 Please download this to visualize and make databases easily, please download SQLiteStudio from [here](https://sqlitestudio.pl/index.rvt?act=download)
 
+# 3. Shodan API
+For this, please register a free account with your student email or whatever. If you have problems registering, just login via google. That works just fine. Then go to your profile and you will see the API area
+
+[shodan]: https://raw.githubusercontent.com/loust/layer8-python/master/images/shodanapi.png
+[shodan]
+
+
 # Conclusion
 By the end of getting the basics from this lab, you will be able to create and maintain your own Discord bot that utilizes a database to retain information and uses an API to interface with another application.
