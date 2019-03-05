@@ -58,6 +58,8 @@ If you want to give it commands, you can do so from the editor!
 And here's an example.
 ![alt text][sql7]
 
+Oh, and here are the [sqlite3 documentations](https://docs.python.org/2/library/sqlite3.html)!
+
 [sql0]: https://raw.githubusercontent.com/loust/layer8-python/master/images/sqlite-newdb.png
 [sql1]: https://raw.githubusercontent.com/loust/layer8-python/master/images/sqlite-newdb-show.png
 [sql2]: https://raw.githubusercontent.com/loust/layer8-python/master/images/sqlite-newtable.png
@@ -165,6 +167,9 @@ After applying the permissions and going to the correct URL, invite the bot to t
 ![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordinvite-01.png)
 ![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordinvite-02.png)
 ![alt text](https://raw.githubusercontent.com/loust/layer8-python/master/images/discordinvite-03.png)
+
+# 5. Integration
+Please follow the file in the ShodanBot directory and create your bot!
 
 # 6. Conclusion
 By the end of getting the basics from this lab, you will be able to create and maintain your own Discord bot that utilizes a database to retain information and uses an API to interface with another application.

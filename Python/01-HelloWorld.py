@@ -30,3 +30,17 @@ print("{} {}".format(world,hello))
 # But does not follow the numbering.
 
 # {0} is the first paramter and {1} is the second.
+
+one = "one"
+two = "two"
+three = "three"
+variable = "four"
+
+print("{one}, {two}, {three}, {four}."
+        .format(
+            one=one,
+            two=two,
+            three=three,
+            four=variable
+        )
+)
